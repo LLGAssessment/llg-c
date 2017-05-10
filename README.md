@@ -1,5 +1,5 @@
 # llg-c
-Last letter game benchmark implemented with C
+A last letter game benchmark implemented in C
 
 ## How to run
 Clone repository recursively:
@@ -8,10 +8,15 @@ Clone repository recursively:
 git clone --recursive https://github.com/LLGAssessment/llg-c.git
 ```
 
-Compile test, run it and measure its time:
+Compile test:
 
 ```bash
 cd llg-c
 make
+```
+
+Run it and measure its time:
+
+```
 time ./llg < llg-dataset/70pokemons.txt
 ```
