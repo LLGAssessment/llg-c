@@ -8,7 +8,7 @@ Clone repository recursively:
 git clone --recursive https://github.com/LLGAssessment/llg-c.git
 ```
 
-Compile test, run it and measure it's time:
+Compile test, run it and measure its time:
 
 ```bash
 cd llg-c
